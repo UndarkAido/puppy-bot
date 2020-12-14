@@ -18,6 +18,8 @@
 #include <discordpp/rest-beast.hh>
 #include <discordpp/websocket-simpleweb.hh>
 
+#include <date/date.h>
+
 template class discordpp::PluginResponder<discordpp::PluginOverload<discordpp::PluginRateLimit<discordpp::WebsocketSimpleWeb<discordpp::RestBeast<discordpp::Bot>>>>>;
 using DppBot = discordpp::PluginResponder<discordpp::PluginOverload<discordpp::PluginRateLimit<discordpp::WebsocketSimpleWeb<discordpp::RestBeast<discordpp::Bot>>>>>;
 

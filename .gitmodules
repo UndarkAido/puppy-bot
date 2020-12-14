@@ -16,3 +16,6 @@
 [submodule "lib/websocket-simpleweb"]
 	path = lib/websocket-simpleweb
 	url = https://github.com/DiscordPP/websocket-simpleweb.git
+[submodule "lib/date"]
+	path = lib/date
+	url = https://github.com/HowardHinnant/date.git
